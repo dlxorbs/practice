@@ -1,0 +1,214 @@
+:root{
+    --device-width: 274px;
+    --logo-width: 192px;
+    
+}
+
+.ios{
+    background: linear-gradient(180deg,#e6e6e6,white 90%);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-rows: var(--device-width) var(--device-width) var(--logo-width) var(--device-width) var(--device-width);
+    grid-template-columns: var(--device-width) var(--device-width) var(--logo-width) var(--device-width) var(--device-width);
+    grid-gap: 82px;
+    margin-top: -200px;
+    margin-bottom: 100px;
+}
+
+
+.ipcontainer{
+    opacity: 0;
+    transition: .8s;
+
+
+}
+
+.logo15{
+    width: 192px;
+    height: 192px;
+    background-size: 192px 192px;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/ios/icon_ios15__girldmfkjh6y_large.png);
+    grid-area:3/3;
+    transform: scale(1.5);
+    transition: .8s;
+
+}
+
+.stand{
+    width: 478px;
+    height: 710px;
+    background-size: 478px 710px;
+
+    left: -22px;
+    top: -25px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/ios/iphone_shadow_vertical__dcwlvxvdp0eq_large.png);
+}
+
+.lay{
+    width: 710px;
+    height: 478px;
+    background-size: 710px 478px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/ios/iphone_shadow_horizontal__kmg9qamjf0qe_large.png);
+    left: -24px;
+    top: -22px;
+}
+
+.location1{
+   grid-area: 2/1;
+   transform: translateY(-600px);
+   transition: .7s;
+   opacity: 0;
+   
+   
+ 
+}
+
+.location2{
+    grid-area: 2/2;
+    transform: translateY(-500px);
+    transition: .8s;
+    opacity: 0;
+    
+    
+}
+
+.location3{
+    grid-area: 2/3;
+   transform: translateX(600px);
+   transition: .8s;
+   
+}
+
+.location4{
+    grid-area: 2/5;
+   transform: translateX(1000px);
+   transition: .8s;
+   
+}
+
+.location5{
+    grid-area: 4/1;
+   transform: translateX(-500px);
+   transition: .8s;
+   
+}
+
+.location6{
+    grid-area: 5/2;
+   transform: translateY(800px);
+   transition: .8s;
+   
+}
+
+.location7{
+    grid-area: 4/4;
+   transform: translateY(400px);
+   transition: .8s;
+   
+}
+
+.location8{
+    grid-area: 4/5;
+   transform: translateY(700px);
+   transition: .8s;
+   
+}
+
+.hardware1{
+   
+    position: absolute;
+    z-index: 3;
+    width: 274px;
+    height: 552px;
+    background-size: 274px 552px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/ios/iphone_hardware_vertical__cfxeypep5qoi_large.png);
+    
+
+}
+
+.hardware2{
+
+    position: absolute;
+    z-index: 3;
+    width: 552px;
+    height: 274px;
+    background-size:  552px 274px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/ios/iphone_hardware_horizontal__chfay7tv2jyq_large.png);
+}
+
+.screen1{
+    position: relative;
+    z-index: 2;
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 258px;
+    height: 536px;
+
+    border-radius: 27px;
+    background-size: 258px 536px;
+}
+
+.screen2{
+    position: relative;
+    z-index: 2;
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 536px;
+    height: 258px;
+
+    border-radius: 27px;
+    background-size:  536px 258px;
+}
+
+
+.img1{
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/iphone-13-pro/f/images/overview/ios/screen_13__dej112wvudme_large.jpg);
+}
+
+.img2{
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/iphone-13-pro/f/images/overview/ios/screen_12__cm3i2gfj0iz6_large.jpg);
+}
+
+.img3{
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/iphone-13-pro/f/images/overview/ios/screen_11__fmmcl1js49ay_large.jpg);
+}
+
+.img4{
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/iphone-13-pro/f/images/overview/ios/screen_5__ca3gxmmgwoya_large.jpg);
+}
+
+.img5{
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/iphone-13-pro/f/images/overview/ios/screen_4__cclo7jc7i4eq_large.jpg);
+}
+
+.img6{
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/ios/screen_18__kgnn2l96j92m_large.jpg);
+}
+
+.img7{
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/iphone-13-pro/f/images/overview/ios/screen_10__fcarqcadwfyy_large.jpg);
+}
+
+.img8{
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/kr/iphone-13-pro/f/images/overview/ios/screen_3__bfyvxdhsfjci_large.jpg);
+}
