@@ -1,0 +1,200 @@
+.textscr{
+    background-color: #fbfbfd;
+    margin-top: 0;
+    padding-top: 125px;
+    padding-bottom: 138px;
+    position: relative;
+    z-index: 2;
+    /* overflow: hidden; */
+}
+strong{
+    color: #1d1d1f;
+}
+
+.intro{
+    font-size: 72px;
+    font-weight: 600;
+    color: #86868b;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+}
+
+.introcon{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: keep-all;
+}
+
+.iphtext{
+    display: block;
+    width: 2442px;
+    height: 562px;
+    --p-width: 2442px;
+    --p-height: 562px;
+    position: relative;
+    left: 50%;
+    margin-left: -791px;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/camera/intro/camera_system__rp945vhdfsiu_large.png);
+}
+
+.hidden{
+      
+    position: sticky;
+    z-index: 1;
+    bottom: -224.8px;
+}
+.textcrop{
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.nightMode{
+
+    height: 4400px;
+    width: 100%;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+/* .nightcon{
+    height: 100%;
+    grid-column: 4/9;
+    grid-row: 1/2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+} */
+
+.nighthead{
+    padding-top: 200px;
+    color: #fbfbfd;
+    align-self: end;
+    padding-bottom: 50px;
+    font-size: 120px;
+    font-weight: 600;
+    grid-column: 6/8;
+    grid-row: 1/2;
+}
+
+.detail{
+
+    margin-left: 100px;
+    color: #fbfbfd70;
+    font-size: 19px;
+    font-weight: 600;
+    grid-column: 6/8;
+    grid-row: 2/4;
+    height: 150px;
+    transition: 1s;
+    opacity: 0;
+
+
+}
+
+.women{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 676px;
+    height: 902px;
+    grid-column: 1/6;
+    grid-row: 1/5;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/camera/low-light/night_mode_photography_1__q70ptc5ot9u2_large.jpg);
+}
+
+.grass{
+   margin-top: 100px;
+    width: 621px;
+    height: 829px;
+    grid-column: 5/7;
+    grid-row: 3/5;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/camera/low-light/night_mode_photography_2__cbzts548jxyu_large.jpg);
+}
+
+
+.sub{
+    grid-column: 2/6;
+    grid-row: 4/9;
+    height: 350px;
+
+}
+
+.sub strong{
+    line-height: 1.4;
+    letter-spacing: 0em;
+    color: #fbfbfd;
+    font-size: 64px;
+    margin: 10px 10px;
+
+}
+
+.nightMode p {
+    margin-left: 50px;
+  
+}
+
+.man{
+    margin-top: -100px;
+    width: 676px;
+    height: 939px;
+    grid-column: 2/6;
+    grid-row: 5/8;
+ background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/camera/low-light/night_mode_photography_3__ciuu9113qhea_large.jpg);
+}
+
+.sofa{
+    margin-top: 100px;
+    width: 884px;
+    height: 663px;
+    grid-column: 5/8;
+    grid-row: 7/9;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/camera/low-light/night_mode_photography_4__eshaa1swvdoy_large.jpg);
+
+}
+
+.last{
+    margin-top: -100px;
+    width: 635px;
+    height: 848px;
+    grid-column: 2/6;
+    grid-row: 9/11;
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/camera/low-light/night_mode_photography_5__y26qxwgyqyq2_large.jpg);
+    
+}
+
+
+
+.sub2{
+
+    grid-column: 6/8;
+    grid-row: 6/8;
+}
+
+.sub2 strong{
+    line-height: 1.4;
+    letter-spacing: 0em;
+    color: #fbfbfd;
+    font-size: 64px;
+    margin: 10px 10px;
+
+}
+
+.sub3 strong{
+    color: #fbfbfd;
+    line-height: 1.4;
+    letter-spacing: 0em;
+    font-size: 64px;
+    margin: 10px 10px;
+
+}
+
+.sub3{
+    
+    grid-column: 6/8;
+    grid-row: 10/12;
+}
